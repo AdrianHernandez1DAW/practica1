@@ -3,11 +3,19 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Principal {
+<<<<<<< HEAD
     public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
+=======
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+        	fechaHora();
+	}
+>>>>>>> 8f1259bc3d453a5e6ebfc83a11fa810a0d1d6313
 
         int cantidadUsuarios = 0;
 
+<<<<<<< HEAD
         System.out.print("Ingrese el tamaño del Array");
         cantidadUsuarios = teclado.nextInt();
 
@@ -52,3 +60,6 @@ class Usuario {
     public String apellidos;
     public String email;
 }
+=======
+}
+>>>>>>> 8f1259bc3d453a5e6ebfc83a11fa810a0d1d6313
